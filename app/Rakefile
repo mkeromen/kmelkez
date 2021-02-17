@@ -1,0 +1,7 @@
+require 'sinatra/activerecord/rake'
+
+namespace :db do
+    task :load_config do
+      Dir["./{controllers,models}/*.rb"].each {|file| require file }
+    end
+end

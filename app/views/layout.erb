@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="www.kmelkez.com" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+        <title>Kmelkez</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <aside id="sidebar-identity">
+            <section id="logo">
+                <a href="index.html">
+                    <img src="svg/logo.svg" alt="Kmelkez logo" class="centered" />
+                </a>
+            </section>
+            <section id="presentation">
+                <div class="image-cropper centered">
+                    <img src="img/autoportrait.jpg" alt="Autoportrait kmelkez"  />
+                </div>
+                <h1>Qui suis-je ?</h1>
+                <p>
+                    Avant tout un papa avec "une barbe qui pique souvent".<br/>
+                    Le reste du temps, un homme curieux qui essait d'avoir un esprit critique, un buveur de bières qui fait du vélo (sauf l'hiver), un apprenti constant, un passionné pour les personnes qui entreprennent.
+                </p>
+            </section>
+            <section id="social-networks">
+                <a href="https://twitter.com/kmelkez" target="_blank"><img src="svg/twitter.svg" alt="icon social network twitter" /></a>
+                <a href="https://www.linkedin.com/in/matthieukeromen" target="_blank"><img src="svg/linkedin.svg" alt="icon social network linkedin" /></a>
+                <a href="https://www.facebook.com/matthieu.keromen" class="facebook"><img src="svg/facebook.svg" alt="icon social network facebook" /></a>
+                <a href="https://www.instagram.com/kmelkez" class="instagram"><img src="svg/instagram.svg" alt="icon social network instagram" /></a>
+            </section>
+        </aside>
+
+        <main id="main-content">
+            <%= yield %>
+        </main>
+    </body>
+</html>
